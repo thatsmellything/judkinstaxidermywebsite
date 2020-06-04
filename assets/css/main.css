@@ -2531,11 +2531,11 @@ input, select, textarea {
 
 	#header {
 		text-align: center;
-		padding: 3em 0 0 0;
-		background-color: #fff;
+		
+		background-color: #333;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
+		
 		background-repeat: no-repeat,					no-repeat,					repeat;
 	}
 
@@ -2560,14 +2560,7 @@ input, select, textarea {
 		padding: 0;
 	}
 
-		#nav:after {
-			content: '';
-			display: block;
-			width: 100%;
-			height: 0.75em;
-			background-color: #37c0fb;
-			background-image: url("images/bg01.png");
-		}
+	
 
 		#nav > ul {
 			margin: 0;
